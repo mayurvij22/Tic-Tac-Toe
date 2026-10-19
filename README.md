@@ -1,17 +1,58 @@
-Tic-Tac-Toe Game
-This is a simple implementation of the classic Tic-Tac-Toe game built using HTML, CSS, and JavaScript. The game allows two players to compete, alternating turns to place Xs and Os on a 3x3 grid. The first player to get three in a row, column, or diagonal wins!
+<div align="center">
 
-Features:
-Interactive Game Board: Players take turns marking the grid with Xs or Os.
-Win Detection: Automatically detects when a player wins or when the game ends in a draw.
-Responsive Design: The game is designed to be fully responsive, making it playable on both desktop and mobile devices.
-Simple UI: Clean and minimal user interface.
-How to Play:
-Players take turns clicking on an empty cell to place their marker (X or O).
-The game checks for a winner after each turn.
-If all cells are filled without a winner, the game declares a draw.
-Technologies Used:
-HTML: For the structure of the game board.
-CSS: For styling and layout.
-JavaScript: For game logic, including turn management, win/draw detection, and resetting the board.
-Feel free to clone, fork, or contribute to this project!
+# ⭕❌ Tic-Tac-Toe
+
+**The classic two-player game, built with HTML, CSS and JavaScript.**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
+### [🎮 Play it live](https://dosti-three.vercel.app)
+
+</div>
+
+---
+
+## 🕹️ How to play
+
+- Two players take turns on the same device: **O** goes first, then **X**.
+- Click an empty cell to place your mark.
+- Get three in a row (horizontal, vertical or diagonal) to win.
+- If all 9 cells fill with no winner, the game is a draw.
+
+## ✨ Features
+
+- **Win detection** across all 8 winning lines
+- **Draw detection** when the board is full
+- A winner or draw message with a **New Game** button
+- A **Reset** button at any time
+- Responsive layout for desktop and mobile
+
+## 🛠️ Tech stack
+
+HTML5 · CSS3 · Vanilla JavaScript · Hosted on Vercel
+
+## 🚀 Run locally
+
+```bash
+git clone https://github.com/mayurvij22/Tic-Tac-Toe.git
+cd Tic-Tac-Toe
+# open index.html in your browser
+```
+
+## 📁 Project structure
+
+```text
+├── index.html   # 3×3 board and controls
+├── style.css    # Styling
+└── app.js       # Turns, win/draw checks, reset
+```
+
+---
+
+<div align="center">
+
+Made by **[Mayur Patil](https://github.com/mayurvij22)**
+
+</div>
